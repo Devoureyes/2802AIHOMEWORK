@@ -272,14 +272,29 @@ def run():
             continue
     try:
         for case in switch(choose):
-            if case(1): number()
-            if case(2): suicide()
-            if case(3): password()
-            if case(4): paper_stone_scissors()
-            if case(5): fibo()
-            if case(6): easy_numbers()
-            if case(7): math_calc()
-            if case(8): twenty_one()
+            if case(1):
+                number()
+                break
+            if case(2):
+                suicide()
+                break
+            if case(3):
+                password()
+                break
+            if case(4):
+                paper_stone_scissors()
+            if case(5):
+                fibo()
+                break
+            if case(6):
+                easy_numbers()
+                break
+            if case(7):
+                math_calc()
+                break
+            if case(8):
+                twenty_one()
+                break
     except Exception:
         print('Введите число от 1 до 8')
 
