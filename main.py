@@ -258,6 +258,7 @@ class switch(object):
 
 
 def run():
+    global choose
     while True:
         number = input()
         if number.isdigit():
